@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reanty | Real Estate Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="topbar">
+          <div class="topbar__inner container container--wide">
+            <div class="topbar__left">
+              <p class="topbar__text">
+                <span class="topbar__item">
+                  <svg class="topbar__icon" viewBox="0 0 20 16" fill="none" aria-hidden="true">
+                    <rect x="1" y="2" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.5" />
+                    <path d="M1 4l9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+                  Info@example.com
+                </span>
+                <span class="topbar__divider" aria-hidden="true">|</span>
+                <span class="topbar__item">
+                  <svg class="topbar__icon" viewBox="0 0 14 18" fill="none" aria-hidden="true">
+                    <path
+                      d="M7 1C4.24 1 2 3.46 2 6.55c0 4.09 5 10.45 5 10.45s5-6.36 5-10.45C12 3.46 9.76 1 7 1Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    />
+                    <circle cx="7" cy="6.5" r="1.75" stroke="currentColor" stroke-width="1.5" />
+                  </svg>
+                  547 NS Tower St. Anglo City, USA
+                </span>
+              </p>
+            </div>
+            <div class="topbar__social">
+              <a href="#" class="topbar__link" aria-label="Facebook">
+                <img src="./images/icon/facebook.png" alt="" />
+              </a>
+              <a href="#" class="topbar__link" aria-label="Twitter">
+                <img src="./images/icon/twitter.png" alt="" />
+              </a>
+              <a href="#" class="topbar__link" aria-label="Instagram">
+                <img src="./images/icon/instagram.png" alt="" />
+              </a>
+              <a href="#" class="topbar__link" aria-label="YouTube">
+                <img src="./images/icon/youtube.png" alt="" />
+              </a>
+              <a href="#" class="topbar__link" aria-label="Pinterest">
+                <img src="./images/icon/pinterest.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-bar container container--wide">
+          <a href="#" class="brand" aria-label="Reanty">
+            <img src="./images/icon/logo.png" alt="" class="brand__logo" aria-hidden="true" />
+          </a>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#home" class="main-nav__link">Home</a>
+            <a href="#about" class="main-nav__link">About</a>
+            <a href="#market" class="main-nav__link">Property</a>
+            <a href="#services" class="main-nav__link">Pages</a>
+            <a href="#featured" class="main-nav__link">Feature</a>
+            <a href="#contact" class="main-nav__link">Contact</a>
+          </nav>
+
+          <div class="header-actions">
+            <a href="#" class="button button--ghost">Log In</a>
+            <a href="#" class="button button--primary">Sign Up</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero__bg" aria-hidden="true"></div>
+          <div class="container container--wide hero__layout">
+            <div class="hero__left">
+              <div class="hero__content">
+                <div class="hero__title-group">
+                  <h1 class="hero__title">
+                    Find The <span class="hero__title-accent">Best Real Estate</span> On Your Country.
+                  </h1>
+                  <img
+                    src="./images/icon/arrow.png"
+                    alt=""
+                    class="hero__arrow"
+                    width="155"
+                    height="210"
+                    aria-hidden="true"
+                  />
+                </div>
+                <p class="hero__description">
+                  How to rent a home very easily in this pandemic situation. You can rent house through using our platfrom.
+                </p>
+                <div class="hero__actions">
+                  <a href="#featured" class="button button--primary">Start Membership &gt;</a>
+                </div>
+              </div>
+
+              <div class="hero__bottom house-slider house-slider--hero">
+                <input type="radio" name="hero-house" id="hero-house-1" class="house-slider__input" checked />
+                <input type="radio" name="hero-house" id="hero-house-2" class="house-slider__input" />
+                <input type="radio" name="hero-house" id="hero-house-3" class="house-slider__input" />
+                <div class="house-steps">
+                  <label for="hero-house-1" class="house-steps__item house-steps__item--1">
+                    <img src="./images/banner/banner-thumb1.jpg" alt="" />
+                    <span>HOUSE 1</span>
+                  </label>
+                  <label for="hero-house-2" class="house-steps__item house-steps__item--2">
+                    <img src="./images/banner/banner-thumb2.jpg" alt="" />
+                    <span>HOUSE 2</span>
+                  </label>
+                  <label for="hero-house-3" class="house-steps__item house-steps__item--3">
+                    <img src="./images/banner/banner-thumb3.jpg" alt="" />
+                    <span>HOUSE 3</span>
+                  </label>
+                </div>
+                <div class="slider-nav" aria-label="Slide navigation">
+                  <span class="slider-nav__line"><span class="slider-nav__progress"></span></span>
+                  <label for="hero-house-1" class="slider-nav__num">1</label>
+                  <label for="hero-house-2" class="slider-nav__num">2</label>
+                  <label for="hero-house-3" class="slider-nav__num">3</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero__visual">
+              <div class="hero__visual-frame">
+                <img src="./images/banner/banner-img1.png" alt="Modern real estate property" class="hero__visual-image" />
+                <div class="hero__info-card">
+                  <span class="hero__info-icon" aria-hidden="true">
+                    <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect x="7" y="34" width="9" height="14" rx="2" fill="#FF5A3C" />
+                      <rect x="20" y="26" width="9" height="22" rx="2" fill="#FF5A3C" />
+                      <rect x="33" y="16" width="9" height="32" rx="2" fill="#FF5A3C" />
+                      <circle cx="24" cy="22" r="15" fill="#F4B942" />
+                      <circle cx="24" cy="22" r="12" fill="#FFD35A" />
+                      <text
+                        x="24"
+                        y="28"
+                        text-anchor="middle"
+                        fill="#C98A12"
+                        font-size="18"
+                        font-weight="700"
+                        font-family="Poppins, Arial, sans-serif"
+                      >
+                        $
+                      </text>
+                    </svg>
+                  </span>
+                  <div>
+                    <strong class="hero__info-value">$7454.21</strong>
+                    <span class="hero__info-label">Revenue</span>
+                  </div>
+                </div>
+                <a href="#" class="hero__video-btn">
+                  <span>How it works</span>
+                  <span class="hero__play" aria-hidden="true">▶</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section feature-summary container" id="feature">
+          <div class="section-header">
+            <h2 class="section-title">Commercial Real Estate <br />And Office</h2>
+            <p class="section-description">
+              Work with Renting brokers who help you to get started with smart tools to.
+            </p>
+          </div>
+
+          <div class="feature-summary__grid">
+            <div class="feature-card animate-on-scroll" data-delay="1">
+              <span class="feature-card__icon">
+                <img src="./images/icon/peoplemoney1.png" alt="" />
+              </span>
+              <h3 class="feature-card__title">Buyer Guides</h3>
+              <p class="feature-card__text">Nurture valuable leads into customers, and turn one time.</p>
+            </div>
+            <div class="feature-card animate-on-scroll" data-delay="2">
+              <span class="feature-card__icon">
+                <img src="./images/icon/peoplemoney2.png" alt="" />
+              </span>
+              <h3 class="feature-card__title">Renter Guides</h3>
+              <p class="feature-card__text">Build brand awareness on the top social media networks.</p>
+            </div>
+            <div class="feature-card animate-on-scroll" data-delay="3">
+              <span class="feature-card__icon">
+                <img src="./images/icon/housemoney.png" alt="" />
+              </span>
+              <h3 class="feature-card__title">Seller Guides</h3>
+              <p class="feature-card__text">Get professionally-written content that attracts qualified.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section overview container" id="about">
+          <div class="overview__image">
+            <div class="overlap-images overlap-images--living animate-on-scroll">
+              <img
+                src="./images/living/living-img1.jpg"
+                alt="Dream living space"
+                class="overlap-images__back"
+              />
+              <img
+                src="./images/living/living-img2.jpg"
+                alt="Interior design"
+                class="overlap-images__front"
+              />
+              <div class="overlap-images__badge">
+                <span class="overlap-images__badge-star">★</span>
+                <span>5 Star<br />Rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="overview__content">
+            <h2 class="section-title">Dream Living Spaces Setting New Build</h2>
+            <p class="section-description">
+              SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens
+            </p>
+            <ul class="overview__list">
+              <li class="overview__list-item animate-on-scroll" data-delay="1">
+                <span class="overview__icon">
+                  <img src="./images/icon/housemoney.png" alt="" />
+                </span>
+                <div>
+                  <h4>The perfect Rsidencye</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </li>
+              <li class="overview__list-item animate-on-scroll" data-delay="2">
+                <span class="overview__icon">
+                  <img src="./images/icon/peoplearc_12122741.png" alt="" />
+                </span>
+                <div>
+                  <h4>Global Arhitect Experts</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </li>
+              <li class="overview__list-item animate-on-scroll" data-delay="3">
+                <span class="overview__icon">
+                  <img src="./images/icon/worldmap.png" alt="" />
+                </span>
+                <div>
+                  <h4>Built-in a storage capable</h4>
+                  <p>Take a deep dive and browse origin neighborhood photos.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section properties container" id="market">
+          <div class="properties__layout">
+            <div class="properties__content">
+              <span class="eyebrow eyebrow--with-icon">
+                <span class="eyebrow__icon" aria-hidden="true">⬡</span>
+                About home
+              </span>
+              <h2 class="section-title section-title--left">Today Sells Properties</h2>
+              <p class="section-description section-description--left">
+                SeaWire Web is a wireframe kit that has more than 15 popular categories and more than 200 screens
+              </p>
+              <ul class="properties__bullets">
+                <li>Live Music concert at Newyork</li>
+                <li>Our best boat Tour is just for you</li>
+                <li>Live Music concert at Newyork</li>
+                <li>Our best boat Tour is just for you</li>
+                <li>Live Music concert at Newyork</li>
+              </ul>
+              <div class="properties__slider-row house-slider house-slider--props">
+                <input type="radio" name="prop-house" id="prop-house-1" class="house-slider__input" checked />
+                <input type="radio" name="prop-house" id="prop-house-2" class="house-slider__input" />
+                <input type="radio" name="prop-house" id="prop-house-3" class="house-slider__input" />
+                <div class="house-steps house-steps--compact">
+                  <label for="prop-house-1" class="house-steps__item house-steps__item--1">
+                    <img src="./images/property/property-1.jpg" alt="" />
+                    <span>HOUSE 1</span>
+                  </label>
+                  <label for="prop-house-2" class="house-steps__item house-steps__item--2">
+                    <img src="./images/property/property-2.jpg" alt="" />
+                    <span>HOUSE 2</span>
+                  </label>
+                  <label for="prop-house-3" class="house-steps__item house-steps__item--3">
+                    <img src="./images/property/property-3.jpg" alt="" />
+                    <span>HOUSE 3</span>
+                  </label>
+                </div>
+                <div class="slider-nav" aria-label="Property slide navigation">
+                  <span class="slider-nav__line"><span class="slider-nav__progress"></span></span>
+                  <label for="prop-house-1" class="slider-nav__num">1</label>
+                  <label for="prop-house-2" class="slider-nav__num">2</label>
+                  <label for="prop-house-3" class="slider-nav__num">3</label>
+                </div>
+              </div>
+            </div>
+            <div class="properties__gallery">
+              <img
+                src="./images/living/living-img1.jpg"
+                alt="Property showcase tall"
+                class="properties__gallery-tall"
+              />
+              <img
+                src="./images/living/living-img2.jpg"
+                alt="Property showcase top"
+                class="properties__gallery-top"
+              />
+              <img
+                src="./images/property/property-1.jpg"
+                alt="Property showcase bottom"
+                class="properties__gallery-bottom"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="section services container" id="services">
+          <div class="section-header">
+            <h2 class="section-title">Services Provide For You</h2>
+            <p class="section-description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+            </p>
+          </div>
+
+          <div class="services__grid">
+            <article class="service-card animate-on-scroll" data-delay="1">
+              <span class="service-card__icon">
+                <img src="./images/icon/bedroom.png" alt="" />
+              </span>
+              <h3>Bed Rooms</h3>
+              <p>Desktop publishing software like aldus page maker including.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+            <article class="service-card animate-on-scroll" data-delay="2">
+              <span class="service-card__icon">
+                <img src="./images/icon/swimming.png" alt="" />
+              </span>
+              <h3>Swimming Pool</h3>
+              <p>React creative agency amet, consec tetur adipiscing elit.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+            <article class="service-card animate-on-scroll" data-delay="3">
+              <span class="service-card__icon">
+                <img src="./images/icon/writing.png" alt="" />
+              </span>
+              <h3>Writing Content</h3>
+              <p>The standard chunk of used since the 1500s is reproduced.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+            <article class="service-card animate-on-scroll" data-delay="4">
+              <span class="service-card__icon">
+                <img src="./images/icon/housemoney.png" alt="" />
+              </span>
+              <h3>Smart Home</h3>
+              <p>The standard chunk of used since the 1500s is reproduced.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+            <article class="service-card animate-on-scroll" data-delay="5">
+              <span class="service-card__icon">
+                <img src="./images/icon/lib.png" alt="" />
+              </span>
+              <h3>Libarary Area</h3>
+              <p>Desktop publishing software like aldus page maker including.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+            <article class="service-card animate-on-scroll" data-delay="5">
+              <span class="service-card__icon">
+                <img src="./images/icon/mobile.png" alt="" />
+              </span>
+              <h3>Responsive Duty</h3>
+              <p>React creative agency amet, consec tetur adipiscing elit.</p>
+              <a href="#" class="service-card__link">Learn More</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section featured container" id="featured">
+          <div class="featured__header">
+            <div>
+              <h2 class="section-title">Featured Property</h2>
+              <p class="section-description">Find your suitable house here and stay safe and relaxe with pleasure</p>
+            </div>
+            <div class="featured__tabs">
+              <input type="radio" name="featured-filter" id="featured-all" class="featured__input" />
+              <input type="radio" name="featured-filter" id="featured-apt" class="featured__input" checked />
+              <input type="radio" name="featured-filter" id="featured-villas" class="featured__input" />
+              <input type="radio" name="featured-filter" id="featured-lands" class="featured__input" />
+              <label for="featured-all" class="featured__tab">All</label>
+              <label for="featured-apt" class="featured__tab">Appartments</label>
+              <label for="featured-villas" class="featured__tab">Villas</label>
+              <label for="featured-lands" class="featured__tab">Lands</label>
+            </div>
+          </div>
+
+          <div class="featured__grid">
+            <article class="property-card property-card--featured-style animate-on-scroll" data-delay="1">
+              <div class="property-card__media">
+                <img src="./images/property/property-1.jpg" alt="The Stokes Appartment" />
+                <div class="property-card__info">
+                  <div class="property-card__content">
+                    <h4>The Stokes Appartment</h4>
+                    <p><span class="property-card__pin" aria-hidden="true">📍</span> Cleveland, United States</p>
+                    <strong>$2,12,120</strong>
+                    <a href="#" class="property-card__arrow" aria-label="View The Stokes Appartment">→</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="property-card property-card--featured-style animate-on-scroll" data-delay="2">
+              <div class="property-card__media">
+                <img src="./images/property/property-2.jpg" alt="The Stokes Appartment" />
+                <div class="property-card__info">
+                  <div class="property-card__content">
+                    <h4>The Stokes Appartment</h4>
+                    <p><span class="property-card__pin" aria-hidden="true">📍</span> Cleveland, United States</p>
+                    <strong>$2,32,120</strong>
+                    <a href="#" class="property-card__arrow" aria-label="View The Stokes Appartment">→</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="property-card property-card--featured-style animate-on-scroll" data-delay="3">
+              <div class="property-card__media">
+                <img src="./images/property/property-3.jpg" alt="The Stokes Appartment" />
+                <div class="property-card__info">
+                  <div class="property-card__content">
+                    <h4>The Stokes Appartment</h4>
+                    <p><span class="property-card__pin" aria-hidden="true">📍</span> Cleveland, United States</p>
+                    <strong>$2,42,120</strong>
+                    <a href="#" class="property-card__arrow" aria-label="View The Stokes Appartment">→</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="featured__actions">
+            <a class="button button--secondary-outline" href="#">Explore All Property</a>
+          </div>
+        </section>
+
+        <section class="section spotlight">
+          <div class="spotlight__bg" aria-hidden="true"></div>
+          <div class="container spotlight__inner">
+            <div class="spotlight__card">
+              <div class="spotlight__thumb">
+                <img src="./images/spotlight/unit-bg.jpg" alt="Unit 9A property" class="spotlight__image" />
+              </div>
+              <div class="spotlight__details">
+                <strong class="spotlight__price">$4,0000</strong>
+                <p class="spotlight__address">242 Metric Way, Chicago</p>
+                <div class="spotlight__stats">
+                  <span><em>🛏</em> 4</span>
+                  <span><em>🛁</em> 3</span>
+                  <span><em>📐</em> 1800 sq ft</span>
+                </div>
+              </div>
+            </div>
+            <div class="spotlight__unit">
+              <span>UNIT NO.</span>
+              <strong>9A</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonial container">
+          <div class="section-header">
+            <h2 class="section-title">What our customers are saying</h2>
+            <p class="section-description">
+              We make sure you have a fine distance with the sickness. We make you never lose hope.
+            </p>
+          </div>
+
+          <div class="testimonial__slider">
+            <button class="testimonial__nav testimonial__nav--prev" type="button" aria-label="Previous testimonial">←</button>
+
+            <div class="testimonial__wrapper">
+              <div class="testimonial__visual">
+                <span class="testimonial__visual-bg" aria-hidden="true"></span>
+                <img src="./images/testimonial/testimonial-1.jpg" alt="Customer testimonial" class="testimonial__img" />
+              </div>
+              <div class="testimonial__content">
+                <span class="testimonial__quote-mark" aria-hidden="true">“</span>
+                <p class="testimonial__text">
+                  We make sure you have a fine distance with the sickness. We make you never lose hope. We make sure you have with the sickness.
+                </p>
+                <div class="testimonial__stars">★★★★★</div>
+                <div class="testimonial__author">
+                  <strong>Yunus Seyhan</strong>
+                  <span>Postgraduate Student</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="testimonial__nav testimonial__nav--next" type="button" aria-label="Next testimonial">→</button>
+          </div>
+        </section>
+
+        <section class="brand-strip" aria-hidden="true">
+          <div class="brand-strip__track">
+            <span>Villa *</span>
+            <span>Apartment *</span>
+            <span>Solution *</span>
+            <span>Marketing *</span>
+            <span>Property *</span>
+            <span>Land *</span>
+            <span>Villa *</span>
+            <span>Apartment *</span>
+            <span>Solution *</span>
+            <span>Marketing *</span>
+          </div>
+        </section>
+
+        <section class="section projects container">
+          <div class="section-header">
+            <h2 class="section-title">We Build More Projects Successful</h2>
+          </div>
+
+          <div class="projects__grid">
+            <article class="projects__card">
+              <img src="./images/project/project-1.jpg" alt="San Francisco" />
+              <div class="projects__overlay">
+                <h3>San Francisco, California</h3>
+                <a href="#" class="button button--small button--light">See More</a>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="./images/living/living-img2.jpg" alt="Washington DC" />
+              <div class="projects__overlay">
+                <h3>Washington DC</h3>
+                <a href="#" class="button button--small button--light">See More</a>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="./images/living/living-img1.jpg" alt="Chicago" />
+              <div class="projects__overlay">
+                <h3>Chicago</h3>
+                <a href="#" class="button button--small button--light">See More</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="newsletter__subscribe">
+            <input type="email" placeholder="Enter your email here" aria-label="Email address" />
+            <button class="button button--primary" type="button">Subscribe</button>
+          </div>
+        </section>
+
+        <section class="section blog container">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">From Our Recent Blog</span>
+              <h2 class="section-title">Find your suitable house here and stay safe and relaxe with pleasure</h2>
+            </div>
+          </div>
+
+          <div class="blog__grid">
+            <article class="blog-card animate-on-scroll" data-delay="1">
+              <div class="blog-card__image">
+                <img src="./images/blog/blog-1.jpg" alt="Blog post" />
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">How to rent a home very easily?</h3>
+                <span class="blog-card__category"><span class="blog-card__bookmark" aria-hidden="true">🔖</span> Rentals</span>
+                <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platform...</p>
+                <div class="blog-card__meta">
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">📅</span> 3 years ago</span>
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">👤</span> By <em>Mike Hesson</em></span>
+                </div>
+              </div>
+            </article>
+            <article class="blog-card animate-on-scroll" data-delay="2">
+              <div class="blog-card__image">
+                <img src="./images/blog/blog-2.jpg" alt="Blog post" />
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">How to rent a home very easily?</h3>
+                <span class="blog-card__category"><span class="blog-card__bookmark" aria-hidden="true">🔖</span> Rentals</span>
+                <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platform...</p>
+                <div class="blog-card__meta">
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">📅</span> 3 years ago</span>
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">👤</span> By <em>Mike Hesson</em></span>
+                </div>
+              </div>
+            </article>
+            <article class="blog-card animate-on-scroll" data-delay="3">
+              <div class="blog-card__image">
+                <img src="./images/blog/blog-3.jpg" alt="Blog post" />
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">How to rent a home very easily?</h3>
+                <span class="blog-card__category"><span class="blog-card__bookmark" aria-hidden="true">🔖</span> Rentals</span>
+                <p>How to rent a home very easily in this pandemic situation. You can rent house through using our platform...</p>
+                <div class="blog-card__meta">
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">📅</span> 3 years ago</span>
+                  <span><span class="blog-card__meta-icon" aria-hidden="true">👤</span> By <em>Mike Hesson</em></span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="blog__action">
+            <a href="#" class="button button--read-all">Read All</a>
+          </div>
+        </section>
+
+        <section class="section contact container" id="contact">
+          <div class="contact__wrapper">
+            <div class="contact__intro">
+              <span class="eyebrow">Contact With Us</span>
+              <h2 class="section-title section-title--left">Looking For To Buy A Property?</h2>
+              <p class="section-description section-description--left">
+                Browse our property listing and find your best and suitable home or house for sale, rent and buying. It's so easy and fast.
+              </p>
+              <ul class="contact__list">
+                <li>Archit ecto beatae vitae dicta sunt</li>
+                <li>Largest global RealEstate market</li>
+                <li>Nor again is there anyone</li>
+              </ul>
+              <div class="contact__collage" aria-hidden="true">
+                <span class="contact__shape contact__shape--gray-lg">
+                  <img src="./images/contact/images (1).jpg" alt="" />
+                </span>
+                <span class="contact__shape contact__shape--gray-sm">
+                  <img src="./images/contact/images.jpg" alt="" />
+                </span>
+                <span class="contact__shape contact__shape--accent"></span>
+                <span class="contact__shape contact__shape--dark"></span>
+              </div>
+            </div>
+            <form class="contact-form" action="#" method="post">
+              <h3 class="contact-form__title">Contact Us</h3>
+              <label>
+                <span>Name</span>
+                <input type="text" placeholder="Enter your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" placeholder="Enter your email" />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea rows="5" placeholder="Enter your message"></textarea>
+              </label>
+              <button type="submit" class="button button--primary">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer__top container">
+          <div class="footer__brand">
+            <a href="#" class="brand brand--footer">
+              <span class="brand__mark brand__mark--house" aria-hidden="true">
+                <img src="./images/icon/home.png" alt="" />
+              </span>
+              <span class="brand__name">Reanty.</span>
+            </a>
+            <p>With over 1 million homes for sale available on the website.</p>
+            <div class="footer__social-links">
+              <a href="#" class="footer__social-link" aria-label="Facebook">
+                <img src="./images/icon/facebook.png" alt="" />
+              </a>
+              <a href="#" class="footer__social-link" aria-label="Twitter">
+                <img src="./images/icon/twitter.png" alt="" />
+              </a>
+              <a href="#" class="footer__social-link" aria-label="Instagram">
+                <img src="./images/icon/instagram.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Mobile</a>
+            <a href="#">Blog</a>
+            <a href="#">How we work?</a>
+          </div>
+
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <a href="#">Help/FAQ</a>
+            <a href="#">Press</a>
+            <a href="#">Affiliates</a>
+            <a href="#">Property owners</a>
+            <a href="#">Partners</a>
+          </div>
+
+          <div class="footer__col">
+            <h4>More</h4>
+            <a href="#">Land fees</a>
+            <a href="#">Property</a>
+            <a href="#">Law tips</a>
+            <a href="#">Nadges</a>
+            <a href="#">Privacy</a>
+          </div>
+
+          <div class="footer__col footer__col--office">
+            <h4>Head Office</h4>
+            <p class="footer__address">
+              Xilliams Corner Wine © 2017. 1112 A Market St<br />
+              # Ste B22, Charlottesville, CA 45565
+            </p>
+            <h4 class="footer__newsletter-title">News letter</h4>
+            <form class="footer__newsletter" action="#" method="post">
+              <input type="email" placeholder="Enter your email address" aria-label="Email address" />
+              <button type="submit" class="footer__newsletter-btn" aria-label="Subscribe">
+                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true">
+                  <rect x="1" y="2" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M1 4l9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom container">
+          <a href="mailto:email@gmail.com" class="footer__contact-link">email@gmail.com</a>
+          <a href="tel:+1234567890" class="footer__contact-link">(123) 456-7890</a>
+          <p class="footer__copyright">© 2026 Reanty. All rights reserved.</p>
+        </div>
+        <div class="footer__accent-bar" aria-hidden="true"></div>
+      </footer>
+    </div>
+  </body>
+</html>
